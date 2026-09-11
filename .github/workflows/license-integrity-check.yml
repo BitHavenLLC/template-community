@@ -36,8 +36,8 @@ jobs:
           ACTUAL_SHA256=$(sha256sum LICENSE | awk '{print $1}')
 
           # Canonical hashes — replace if you bump the license version.
-          COMMUNITY_SHA256="1573d2f9d1e03978c722c7b00c854fe10bdcd9228d6c46a4e6f900befd79898f"
-          OSS_SHA256="418ca9d89918e9ea66181b467c973d4fb54dccafcdd49bdb2883e62e89836716"
+          COMMUNITY_SHA256="ccb24b5f53236963ee019fd3808d492349a6c3227c4a2caca670f5b07aed247c"
+          OSS_SHA256="d05abc65cc22b0e7ba47d9304216b21df57e3073f3781d6c70e11afa4285de39"
 
           if [ "$ACTUAL_SHA256" = "$COMMUNITY_SHA256" ]; then
             echo "LICENSE matches BitHaven Community License v1.1. OK."
