@@ -1,0 +1,53 @@
+name: License integrity check
+
+# Fails the check if the repo's root LICENSE file does not exactly match one
+# of BitHaven's two canonical license texts. Add this as a required status
+# check in an org-level ruleset so no repo can merge a change that silently
+# edits, replaces, or deletes its LICENSE file.
+#
+# When you publish a new license version, update CANONICAL_SHA256 below to
+# match, and roll the update out to every repo's LICENSE file at the same
+# time so this check keeps passing.
+
+on:
+  pull_request:
+    paths:
+      - "LICENSE"
+  push:
+    branches: [main]
+    paths:
+      - "LICENSE"
+
+jobs:
+  check-license:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Verify LICENSE matches a canonical BitHaven license
+        run: |
+          set -e
+
+          if [ ! -f LICENSE ]; then
+            echo "::error::No LICENSE file found at repository root."
+            exit 1
+          fi
+
+          ACTUAL_SHA256=$(sha256sum LICENSE | awk '{print $1}')
+
+          # Canonical hashes — replace if you bump the license version.
+          COMMUNITY_SHA256="1573d2f9d1e03978c722c7b00c854fe10bdcd9228d6c46a4e6f900befd79898f"
+          OSS_SHA256="418ca9d89918e9ea66181b467c973d4fb54dccafcdd49bdb2883e62e89836716"
+
+          if [ "$ACTUAL_SHA256" = "$COMMUNITY_SHA256" ]; then
+            echo "LICENSE matches BitHaven Community License v1.1. OK."
+            exit 0
+          fi
+
+          if [ "$ACTUAL_SHA256" = "$OSS_SHA256" ]; then
+            echo "LICENSE matches BitHaven Open Source License v1.1. OK."
+            exit 0
+          fi
+
+          echo "::error::LICENSE does not match either canonical BitHaven license text (got sha256=$ACTUAL_SHA256). If this is an intentional license version bump, update CANONICAL_SHA256 in this workflow in the same PR."
+          exit 1

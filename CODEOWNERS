@@ -1,0 +1,8 @@
+# This file goes in the repository root, or in /.github/CODEOWNERS, or in
+# /docs/CODEOWNERS. Root is recommended.
+
+/LICENSE              @BitHaven/legal-admins
+/LICENSE-COMMUNITY    @BitHaven/legal-admins
+/LICENSE-OSS          @BitHaven/legal-admins
+/TRADEMARK.md         @BitHaven/legal-admins
+/NOTICE                @BitHaven/legal-admins

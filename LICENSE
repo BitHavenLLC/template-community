@@ -1,0 +1,266 @@
+BIT HAVEN COMMUNITY LICENSE
+Version 1.1
+
+Copyright (c) 2026 BitHaven LLC, a New York limited
+liability company, and contributors
+
+1. DEFINITIONS
+
+"Software" means the source code, object code, documentation, configuration,
+scripts, assets, and other materials distributed with this license.
+
+"Original Project" means the Software as published by BitHaven or an
+authorized BitHaven repository.
+
+"Derivative Work" means a work based upon or incorporating substantial
+portions of the Software.
+
+"BitHaven" means BitHaven LLC and its authorized representatives.
+
+"Community Use" means personal, educational, research, nonprofit, community,
+or internal organizational use that does not primarily constitute the sale
+or commercial distribution of the Software itself. For clarity, an
+organization of any size may make Community Use of the Software for its own
+internal operations; Community Use ends where the organization begins
+selling, licensing, or commercially distributing the Software (or a
+Derivative Work of it) to third parties as a product or service in its own
+right.
+
+2. GRANT OF RIGHTS
+
+Subject to the terms of this license, BitHaven grants you a worldwide,
+non-exclusive, royalty-free license to:
+
+a. access and inspect the source code;
+
+b. use the Software for personal, educational, research, nonprofit,
+community, and internal purposes;
+
+c. copy the Software;
+
+d. modify the Software;
+
+e. create Derivative Works;
+
+f. fork the Original Project;
+
+g. contribute modifications to the Original Project; and
+
+h. redistribute source code or modifications for permitted Community Use.
+
+3. COMMUNITY FORKS
+
+You may create and maintain forks of the Software.
+
+A fork must:
+
+a. retain the applicable copyright and license notices;
+
+b. clearly identify itself as an independent fork where reasonably necessary
+to prevent confusion;
+
+c. not claim to be the official BitHaven project; and
+
+d. not imply that BitHaven endorses, sponsors, certifies, or operates the fork
+without explicit authorization.
+
+Forks may use their own names, logos, domains, and branding, subject to the
+BitHaven Trademark & Branding Policy.
+
+4. COMMERCIAL USE
+
+The Software may be used internally by commercial organizations for purposes
+such as research, development, testing, security analysis, education,
+infrastructure, and internal operations.
+
+You may not sell, license, sublicense, rent, lease, or otherwise commercially
+distribute the Original Project or a Derivative Work as a standalone product
+or service that is the same as, or not meaningfully differentiated from, the
+Original Project, without prior written permission from BitHaven. Examples of
+what this restriction covers and does not cover are illustrative only and do
+not narrow the scope of this section:
+
+- Covered (requires permission): repackaging the Software (with only cosmetic
+  or configuration changes) and selling access to it as a hosted service or
+  paid product.
+- Not covered (no permission needed): building a materially different product
+  that happens to use the Software as one internal component, where the
+  Software itself is not the thing being sold.
+
+This restriction does not prohibit:
+
+a. internal use of the Software by a commercial organization;
+
+b. consulting, research, development, or security services performed using
+the Software, provided that the Software itself is not being sold as the
+primary product;
+
+c. independent software that merely interoperates with the Software without
+incorporating substantial portions of it; or
+
+d. other uses expressly authorized by BitHaven in writing.
+
+If you are uncertain whether an intended use requires permission, contact
+BitHaven before proceeding at BitHavenLLC@Gmail.com.
+
+5. REDISTRIBUTION
+
+Redistribution for permitted Community Use is allowed provided that:
+
+a. this license remains included;
+
+b. copyright notices remain intact;
+
+c. material modifications are identified as modifications; and
+
+d. the distributor does not misrepresent the origin or official status of the
+redistributed Software.
+
+6. ATTRIBUTION
+
+Where reasonably practical, redistributed copies and substantial Derivative
+Works should retain a reference to the Original Project and BitHaven.
+
+Attribution must not imply endorsement, sponsorship, certification, employment,
+partnership, or official affiliation unless BitHaven has expressly authorized
+such representation.
+
+7. CONTRIBUTIONS
+
+By submitting a contribution to an official BitHaven repository, you certify
+that you have the right to submit it, and you grant BitHaven and other users
+of the Software a license to use, modify, and redistribute your contribution
+under the terms of the license applicable to that repository. Submission of a
+contribution does not automatically transfer copyright ownership to BitHaven.
+
+BitHaven may require contributors to sign off on commits (e.g. under a
+Developer Certificate of Origin) or may request additional contributor
+agreements or copyright documentation for particular projects where
+appropriate.
+
+8. TRADEMARKS AND BRANDING
+
+This license grants no right to use:
+
+* the BitHaven name;
+* BitHaven logos;
+* BitHaven marks;
+* BitHaven domains;
+* BitHaven visual identity; or
+* other BitHaven branding
+
+except as reasonably necessary to identify the original source of the
+Software, and subject in all cases to the BitHaven Trademark & Branding
+Policy (published at https://github.com/BitHavenLLC/.github/blob/main/TRADEMARK.md), which is incorporated into
+this license by reference.
+
+Use of BitHaven branding in a manner that suggests official status,
+endorsement, sponsorship, certification, or affiliation requires prior
+written authorization.
+
+9. SECURITY RESEARCH
+
+Nothing in this license is intended to prohibit lawful security research,
+vulnerability research, reverse engineering where legally permitted,
+interoperability work, or responsible disclosure.
+
+Nothing in this license grants permission to access systems, accounts,
+networks, or data without authorization.
+
+10. MODIFICATION NOTICE
+
+If you distribute a modified version of the Software, you must make a
+reasonable effort to distinguish the modified version from the Original
+Project.
+
+You may not represent modified Software as unmodified BitHaven software.
+
+11. PATENT LICENSE
+
+Subject to the terms of this license, each contributor grants you a
+worldwide, non-exclusive, royalty-free patent license under that
+contributor's patent claims that are necessarily infringed by their
+contribution alone, or by combination of their contribution with the
+Software as distributed, to make, use, and redistribute the Software for
+permitted Community Use.
+
+If you institute patent litigation against any entity alleging that the
+Software, or a contribution incorporated within it, infringes a patent, then
+any patent licenses granted to you under this license for that Software
+terminate as of the date such litigation is filed.
+
+12. TERMINATION
+
+Your rights under this license automatically terminate if you materially
+violate its terms.
+
+Rights may be reinstated if the violation is cured within thirty (30) days
+after written notice from BitHaven, or at BitHaven's sole discretion.
+
+Termination does not terminate licenses previously granted to recipients who
+are not themselves in violation of this license.
+
+13. NO WARRANTY
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT.
+
+IN NO EVENT SHALL BIT HAVEN OR ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT,
+INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES ARISING
+FROM THE USE OF OR INABILITY TO USE THE SOFTWARE.
+
+14. LIMITATION OF LIABILITY
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, BIT HAVEN AND ITS CONTRIBUTORS SHALL
+NOT BE LIABLE FOR DAMAGES ARISING FROM USE, MODIFICATION, DISTRIBUTION, OR
+MISUSE OF THE SOFTWARE.
+
+15. NO TRANSFER OF OWNERSHIP
+
+This license grants permissions to use the Software. It does not transfer
+ownership of copyright, trademarks, patents, trade secrets, or other
+intellectual property belonging to BitHaven or its contributors.
+
+16. COMPLIANCE WITH LAW
+
+You are responsible for complying with all applicable laws in connection with
+your use, modification, or distribution of the Software, including without
+limitation applicable export control and sanctions laws. You may not use,
+export, or re-export the Software in violation of such laws.
+
+17. LICENSE VERSIONING
+
+The Software is licensed to you under the version of this license
+accompanying the copy you received. BitHaven may publish revised or new
+versions of this license, and may license future versions or releases of the
+Software under different terms, but no such change applies retroactively to
+copies already distributed under this version.
+
+18. GOVERNING LAW AND VENUE
+
+This license is governed by the laws of the State of New York, USA, without regard to
+its conflict-of-laws principles. Any dispute arising out of or relating to
+this license shall be brought exclusively in the state or federal courts
+located in Erie County, New York, and each party consents to the personal
+jurisdiction of those courts.
+
+19. SEVERABILITY
+
+If any provision of this license is held unenforceable, that provision shall
+be limited or eliminated to the minimum extent necessary, and the remaining
+provisions shall remain in full force and effect.
+
+20. ENTIRE AGREEMENT
+
+This license, together with the BitHaven Trademark & Branding Policy where
+applicable, constitutes the entire agreement between you and BitHaven
+regarding the Software and supersedes any prior or contemporaneous
+understandings regarding its subject matter.
+
+21. RESERVATION OF RIGHTS
+
+All rights not expressly granted under this license are reserved by their
+respective copyright holders.
+
+END OF LICENSE
